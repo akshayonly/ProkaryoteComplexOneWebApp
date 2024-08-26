@@ -8,7 +8,7 @@ st.warning('Site Under Development', icon="⚠️")
 st.divider()
 
 # Read data from a CSV file
-data = pd.read_csv("https://raw.githubusercontent.com/akshayonly/ProkaryoteComplexOneWebApp/main/data.csv")
+data = pd.read_csv("https://drive.google.com/uc?id=1xLDFvWmKhvwCb0DyNhqGUo5y8ZO_H1wx&export=download")
 
 # Slider for selecting the number of subunits
 subunits = st.slider("Subunits", 1, 14, 11)
